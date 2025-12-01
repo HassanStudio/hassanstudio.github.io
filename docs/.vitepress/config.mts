@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Hassan",
-  description: "智能的 macOS 脚本执行平台，伪装成外部编辑器，为你的开发工作流带来强大的自动化能力",
+  description: "专为 Xcode 设计，伪装成外部编辑器，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力",
 
   // 如果部署到 GitHub Pages，需要设置正确的 base
   // 使用组织主页 hassanstudio.github.io，不需要设置 base

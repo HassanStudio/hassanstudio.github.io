@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Hassan"
-  text: "智能的 macOS 脚本执行平台"
-  tagline: '"The editor that hides in plain sight" —— 隐藏在明处的编辑器'
+  text: "Script executor in editor's clothing"
+  tagline: "专为 Xcode 设计，伪装成外部编辑器，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力"
   actions:
     - theme: brand
       text: 快速开始
