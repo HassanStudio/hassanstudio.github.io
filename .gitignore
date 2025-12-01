@@ -1,0 +1,42 @@
+# 依赖
+node_modules/
+
+# VitePress 构建产物
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# 日志文件
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器目录和文件
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 缩略图
+._*
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
