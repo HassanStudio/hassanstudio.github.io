@@ -3,9 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Hassan",
-  description: "专为 Xcode 设计，伪装成外部编辑器，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力",
+  description: "专为 Xcode 设计，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力",
 
-  // 如果部署到 GitHub Pages，需要设置正确的 base
   // 使用组织主页 hassanstudio.github.io，不需要设置 base
   // base: '/Hassan-Doc/',
 
@@ -16,8 +15,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
       { text: '常见问题', link: '/faq' },
-      { text: '隐私政策', link: '/privacy' },
-      { text: '更新说明', link: '/changelog' }
+      { text: '关于', link: '/about/' }
     ],
 
     // 侧边栏
@@ -25,17 +23,24 @@ export default defineConfig({
       {
         text: '开始使用',
         items: [
-          { text: '介绍', link: '/guide/' },
-          { text: '快速开始', link: '/guide/getting-started' },
+          { text: '快速开始', link: '/guide/' },
           { text: '功能介绍', link: '/guide/features' },
           { text: '自定义脚本', link: '/guide/custom-scripts' }
+        ]
+      },
+      {
+        text: '关于',
+        items: [
+          { text: '关于 Hassan', link: '/about/' },
+          { text: '隐私政策', link: '/about/privacy' },
+          { text: '第三方许可证', link: '/about/licenses' },
+          { text: '联系我们', link: '/about/contact' }
         ]
       },
       {
         text: '其他',
         items: [
           { text: '常见问题', link: '/faq' },
-          { text: '隐私政策', link: '/privacy' },
           { text: '更新说明', link: '/changelog' }
         ]
       }
@@ -48,7 +53,6 @@ export default defineConfig({
 
     // 页脚
     footer: {
-      message: '基于 MIT 许可发布',
       copyright: 'Copyright © 2024-present Rakuyo'
     },
 

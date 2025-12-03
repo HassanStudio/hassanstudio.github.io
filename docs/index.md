@@ -4,19 +4,16 @@ layout: home
 
 hero:
   name: "Hassan"
-  text: "Script executor in editor's clothing"
-  tagline: "专为 Xcode 设计，伪装成外部编辑器，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力"
+  text: "Script Executor, Editor Mask"
+  tagline: "专为 Xcode 设计，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力"
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/getting-started
-    - theme: alt
-      text: 了解更多
       link: /guide/
 
 features:
   - title: 🎭 智能伪装
-    details: 伪装成外部编辑器，无缝集成到 Xcode 工作流中，通过右键菜单快速执行自动化脚本
+    details: 无缝集成到 Xcode 工作流中，通过右键菜单快速执行自动化脚本
   - title: ⚡️ 脚本执行引擎
     details: 支持多种脚本语言（Shell、Python、Ruby、Swift 等），智能匹配解释器，自动执行
   - title: 📋 任务管理系统

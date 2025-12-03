@@ -7,8 +7,8 @@ pnpm = "10.22.0"    # 最新版本
 jq = "1.8.1"
 
 [hooks]
-# 进入目录时自动检测并安装依赖
-enter = "bash Scripts/install-pnpm-deps.sh"
+# 安装工具后自动安装 pnpm 依赖
+after_install = "mise run npm:install"
 
 # npm 相关任务
 [tasks."npm:dev"]
