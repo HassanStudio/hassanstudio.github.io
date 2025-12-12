@@ -1,0 +1,23 @@
+/* 自定义样式 */
+
+/* 调整 hero.text 的字号，使其介于 name 和 tagline 之间，更偏向 tagline */
+.VPHero .text {
+  font-size: 36px !important;
+  line-height: 1.4 !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .VPHero .text {
+    font-size: 21px !important;
+  }
+}
+
+/* ==================== 图表样式 ==================== */
+
+/* Mermaid 图表居中显示 */
+.vp-doc div:has(> svg[id^="mermaid"]) {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "hassan-doc",
+  "version": "1.0.0",
+  "description": "Hassan macOS App 官方文档",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "hassan",
+    "macos",
+    "xcode",
+    "documentation"
+  ],
+  "author": "Rakuyo",
+  "license": "MIT",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@mermaid-js/mermaid-mindmap": "^9.3.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "mermaid": "^8.14.0",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.10",
+    "vue": "^3.5.24"
+  }
+}

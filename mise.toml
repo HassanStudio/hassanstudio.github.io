@@ -1,0 +1,28 @@
+[tools]
+# 运行时环境
+node = "22.21.1"    # LTS 版本，稳定且功能丰富
+pnpm = "10.22.0"    # 最新版本
+
+# 工具依赖
+jq = "1.8.1"
+
+[hooks]
+# 安装工具后自动安装 pnpm 依赖
+postinstall = "mise run npm:install"
+
+# npm 相关任务
+[tasks."npm:dev"]
+run = "pnpm dev"
+description = "启动开发服务器"
+
+[tasks."npm:build"]
+run = "pnpm build"
+description = "构建生产版本"
+
+[tasks."npm:preview"]
+run = "pnpm preview"
+description = "预览生产构建"
+
+[tasks."npm:install"]
+run = "pnpm install"
+description = "安装项目依赖"
