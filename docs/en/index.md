@@ -8,6 +8,9 @@ hero:
   tagline: "Designed for Xcode, enabling quick execution of custom scripts via right-click menu to inject automation into your development workflow"
   actions:
     - theme: brand
+      text: Download Now
+      link: https://apps.apple.com/us/app/hassan/id6755989817
+    - theme: alt
       text: Get Started
       link: /en/guide/
 

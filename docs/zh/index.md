@@ -8,6 +8,9 @@ hero:
   tagline: "专为 Xcode 设计，让你通过右键菜单快速执行自定义脚本，为开发工作流注入自动化能力"
   actions:
     - theme: brand
+      text: 立即下载
+      link: https://apps.apple.com/us/app/hassan/id6755989817
+    - theme: alt
       text: 快速开始
       link: /zh/guide/
 

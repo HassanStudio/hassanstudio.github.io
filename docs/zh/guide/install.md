@@ -14,7 +14,7 @@
 
 ### 通过 App Store 安装
 
-<!--@include: @/.vitepress/snippets/app-name.md--> 即将上架 macOS App Store，届时可以直接从下方链接处进行下载安装。
+<!--@include: @/.vitepress/snippets/app-name.md--> 已在 macOS App Store 上架，可以直接从下方链接进行下载安装。
 
 **App Store 链接** - [<!--@include: @/.vitepress/snippets/app-name.md--> on App Store](https://apps.apple.com/app/id6755989817)
 

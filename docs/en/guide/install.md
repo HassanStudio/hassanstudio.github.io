@@ -14,7 +14,7 @@ Before you begin, make sure your system meets the following requirements:
 
 ### Install from App Store
 
-<!--@include: @/.vitepress/snippets/app-name.md--> will soon be available on the macOS App Store. You'll be able to download it directly from the link below.
+<!--@include: @/.vitepress/snippets/app-name.md--> is now available on the macOS App Store. You can download it directly from the link below.
 
 **App Store Link** - [<!--@include: @/.vitepress/snippets/app-name.md--> on App Store](https://apps.apple.com/app/id6755989817)
 
